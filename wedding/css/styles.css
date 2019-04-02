@@ -1,0 +1,693 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+header {
+    width: 1366px;
+    height: 680px;
+    position: relative;
+}
+
+.owl-carousel {
+    position: relative;
+
+}
+
+.header {
+    width: 1366px;
+    height: 100px;
+    background: url("images/Без имени-2.png");
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: 97px;
+}
+
+.nav li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 100px;
+    padding-right: 47px;
+}
+
+.nav ul {
+    margin-left: 232px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.icon {
+    line-height: 113px;
+    margin-right: 97px;
+}
+
+.slogan {
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    transform: translate(362px, 252px);
+
+}
+
+.slogan h1 {
+    font-size: 36pt;
+    color: #FFDEBC;
+    font-family: "Monotype Corsiva";
+}
+
+.slogan p {
+    margin-top: 43px;
+    font-size: 20pt;
+    font-family: "Myriad Pro";
+    color: #ABD9BA;
+}
+
+.slogan p:nth-last-child(2) {
+    margin-top: 13px;
+}
+
+.photoUs {
+    margin-right: 97px;
+}
+
+.slogan img {
+    margin-top: 184px;
+}
+
+.aboutUs {
+    width: 1366px;
+    height: 681px;
+    background: url("images/backgrAboutUs.png") no-repeat;
+    padding-top: 58px;
+}
+
+.aboutUs h1 {
+    text-align: center;
+    font-family: "Monotype Corsiva";
+    font-size: 34pt;
+    padding-bottom: 36px;
+}
+
+.block {
+    display: flex;
+}
+
+.aboutCompany {
+    padding-left: 98px;
+    padding-right: 31px;
+}
+
+.aboutCompany p {
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 13px;
+    color: #496866;
+    font-family: "Myriad Pro";
+}
+
+.aboutCompany h2 {
+    font-size: 30px;
+    font-family: "Myriad Pro";
+    color: #726C60;
+    margin-bottom: 40px;
+}
+
+.ourServices h1 {
+    text-align: center;
+}
+
+.training h2,
+.coordination h2 {
+    margin-top: 96px;
+    text-align: center;
+
+}
+
+.aboutCompany a {
+    padding-left: 80px;
+}
+
+.training {
+    background: url("images/trback.png") no-repeat;
+    width: 574px;
+    background-size: cover;
+    margin-right: 10px;
+
+}
+
+.training p {
+    padding-left: 50px;
+}
+
+.training ul li {
+    margin-left: 58px;
+    list-style-type: none;
+    position: relative;
+    padding: 8px 0;
+}
+
+.coordination ul li:before,
+.training ul li:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #b8d8ba;
+    display: block;
+    position: absolute;
+    top: 14px;
+    left: -18px;
+}
+
+.coordination ul li:after,
+.training ul li:after {
+    content: '';
+    height: 100%;
+    border-left: 2px dashed #b8d8ba;
+    display: block;
+    width: 1px;
+    position: absolute;
+    top: 24px;
+    left: -14px;
+}
+
+.coordination ul li:last-of-type:after,
+.training ul li:last-of-type:after {
+    display: none;
+}
+
+ul.training__nested li:before {
+    display: none;
+}
+
+ul.training__nested li:after {
+    display: none;
+}
+
+.coordination {
+    background: url("images/trback2.png") no-repeat;
+    width: 574px;
+    height: 663px;
+    background-size: initial;
+    margin-left: 10px;
+}
+
+.coordination li {
+    margin-left: 58px;
+    list-style-type: none;
+    position: relative;
+    padding: 8px 0;
+}
+
+.ourServicesPhoto img {
+    height: 396px;
+    margin: 20px 10px 60px 10px;
+    width: 574px;
+
+}
+
+.ourServices h1 {
+    font-family: "Monotype Corsiva";
+    font-size: 48px;
+
+}
+
+.services, .ourServicesPhoto {
+    display: flex;
+    justify-content: center;
+    width: 1366px;
+}
+
+.services li, p,
+.portfolio p {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    color: #3A6A6E;
+}
+
+.services h2 {
+    font-family: "Myriad Pro";
+    font-size: 30px;
+    color: #726C60;
+}
+
+.services p {
+    padding-left: 136px;
+}
+
+.whyChooseUs {
+    background: url("images/bcgrwhy.png");
+    width: 1366px;
+    height: 1136px;
+}
+
+.whyChooseUs h3,
+.portfolio h3 {
+    font-family: "Monotype Corsiva";
+    font-size: 48px;
+    text-align: center;
+    color: #3A6A6E;
+    padding-top: 67px;
+}
+
+.whyPhoto1 {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.whyPhoto1 .ourServise:hover {
+    box-shadow: 0px 0px 50px #000000;
+    transform: scale(1.2);
+    z-index: 1;
+
+}
+
+.whyPhoto1 .ourServise {
+    transition: .7s;
+}
+
+.ourServise {
+    position: relative;
+
+}
+
+.ourServise.center {
+    top: 50px;
+}
+
+.ourServise h3 {
+    position: absolute;
+    bottom: 76px;
+    left: 10px;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    color: #3A6A6E;
+
+}
+
+.ourServise p {
+    position: absolute;
+    top: 367px;
+    left: 8px;
+    width: 260px;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+}
+
+.portfolio {
+    width: 1366px;
+    position: relative;
+}
+
+.portPhoto {
+    display: flex;
+    width: 1366px;
+}
+
+.portfolio h2 {
+    text-align: center;
+}
+
+.portfolio p {
+    padding: 34px 0 37px 0;
+    width: 592px;
+}
+
+.portfolioPhoto {
+    position: relative;
+    display: flex;
+    /*margin-left: 99px;*/
+
+}
+
+.logo.rings {
+    position: absolute;
+    top: 13px;
+    left: 3px;
+    margin-left: 0;
+}
+
+.portfolioPhoto input {
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+}
+
+.portfolioPhoto h1 {
+    position: absolute;
+    top: 567px;
+    font-size: 30px;
+    color: #fcddbc;
+    font-family: "Myriad Pro";
+    text-align: center;
+    width: 100%;
+}
+
+.portfolio h4 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    color: #726C60;
+    padding-top: 28px;
+
+}
+
+.portfolioPhoto input {
+    border: 3px #b8d8ba solid;
+    background: none;
+    color: #b8d8ba;
+    width: 197px;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    height: 41px;
+    text-align: center;
+    left: 50%;
+    margin-left: -100px;
+    bottom: 19px;
+}
+
+.portfolioPhoto.left {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.portfolioPhoto.left img:hover,
+.portfolioPhoto.right img:hover {
+    border-radius: 10%;
+    transition: .7s;
+}
+
+.portfolioPhoto.left img,
+.portfolioPhoto.right img {
+    transition: .7s;
+}
+
+.portfolioPhoto.right {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.portfolio a input {
+    padding: 10px 0 58px 0;
+    display: flex;
+}
+
+.form {
+    background: url("images/formBack.png") no-repeat;
+    width: 1366px;
+    height: 768px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+}
+
+.forms input[type="text"],
+#send {
+    background: url("images/formsbckg.png");
+    border: none;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    margin-bottom: 20px;
+    height: 55px;
+    width: 407px;
+    padding-left: 21px;
+}
+
+.forms p {
+    font-family: "Myriad Pro";
+    font-size: 30px;
+    color: #b1d1ab;
+    width: 415px;
+    margin-bottom: 38px;
+}
+
+.form h3 {
+    font-family: "Monotype Corsiva";
+    font-size: 48px;
+    text-align: center;
+    color: #fcddbc;
+    padding-top: 67px;
+}
+
+.forms {
+    margin-left: 100px;
+    margin-top: 24px;
+}
+
+#send {
+    height: 110px;
+    padding-top: 15px;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #b8d8ba;
+    text-indent: 0px;
+    transition: text-indent 0.7s ease;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #b8d8ba;
+}
+
+textarea:focus::-webkit-input-placeholder,
+input:focus::-webkit-input-placeholder {
+    color: #b8d8ba;
+    opacity: 0;
+    transition: opacity .9s ease;
+}
+
+.forms input[type="submit"] {
+    background: #b8d8ba;
+    border: none;
+    color: #706c61;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    margin-bottom: 20px;
+    height: 55px;
+    width: 428px;
+    padding-left: 21px;
+}
+
+footer {
+    width: 1366px;
+    background: url("images/footerbckg.png") no-repeat;
+    height: 233px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .logo {
+    padding: 66px 0 0 74px;
+}
+
+footer h1, a {
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    color: #fcddbc;
+}
+
+footer h1 {
+    margin-bottom: 24px;
+}
+
+footer p,
+.contact a,
+.contact p {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    color: #fcddbc;
+}
+
+.social,
+.address,
+.contact {
+    padding-top: 62px;
+}
+
+.social .icons a {
+    padding-right: 30px;
+}
+
+.owl-dots {
+    width: 100px;
+    display: flex;
+    position: absolute;
+    top: 616px;
+    transform: translateX(-50%);
+    left: 50%;
+
+}
+
+.owl-carousel button.owl-dot {
+    background: url("images/slider1.png") no-repeat;
+    background-position: center;
+
+}
+
+.owl-carousel button.owl-dot.active {
+    background: url("images/sliderMain.png") no-repeat;
+
+}
+
+@-webkit-keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+#zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    animation: zoomIn 2s;
+}
+
+@-webkit-keyframes flipInX {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px);
+    }
+}
+
+@keyframes flipInX {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px);
+    }
+}
+
+.flipInX {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInX;
+    animation-name: flipInX;
+    animation: flipInX 3.5s;
+}
+
+@-webkit-keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px);
+    }
+}
+
+
+
+
+
+
+
+
